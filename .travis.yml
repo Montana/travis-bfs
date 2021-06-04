@@ -4,7 +4,11 @@ dist: focal
 language: python
 python:
   - "2.7"
-  - "3.8"
-script:
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+install: pip install tox-travis
+script: tox
   - python bfs.py 
-  - python3 bfs.py 
+  - python3 bfs.py
