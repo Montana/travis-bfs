@@ -6,7 +6,6 @@ python:
   - "3.5"
   - "3.6"
   - "3.7"
-install: pip install tox-travis
-script: tox
-  - python bfs.py 
+script: python bfs.py 
   - python3 bfs.py
+  after_install: echo "Montana Mendy"
