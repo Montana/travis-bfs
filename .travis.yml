@@ -1,5 +1,6 @@
 os: freebsd
 language: python
+arch: s390x
 python:
   - "2.7"
   - "3.4"
@@ -9,5 +10,3 @@ python:
 script: python bfs.py 
   - python3 bfs.py
 after_install: echo "Montana Mendy"
-
-# trigger a build 
