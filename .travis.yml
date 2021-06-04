@@ -1,0 +1,10 @@
+--
+os: linux
+dist: focal
+language: python
+python:
+  - "2.7"
+  - "3.8"
+script:
+  - python bfs.py 
+  - python3 bfs.py 
